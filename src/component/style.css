@@ -1,0 +1,63 @@
+.sidebar-container {
+  background-color: rgb(255, 255, 255);
+  width: 130px;
+  height: 100vh;
+  max-height: fit-content;
+  text-align: center;
+}
+.switch__icon {
+  padding: 20px;
+}
+.menu-icons {
+  padding: 10px;
+}
+
+/* header styles */
+.header__bar {
+  margin-top: 10px;
+  background-color: rgb(236, 238, 239) !important;
+  box-shadow: none !important;
+}
+.logo__text {
+  font-weight: 700 !important;
+}
+.avatar_img {
+  background-color: rgb(242, 124, 6) !important;
+}
+/* userName container */
+.username__container h4 {
+  color: rgb(60, 59, 59);
+  margin-top: 16px;
+}
+.username__container p {
+  margin-top: -15px;
+  color: rgb(109, 109, 109);
+  font-weight: 500;
+}
+/* MainPage Container */
+.mainpage__container {
+  background-color: rgb(236, 238, 239);
+  padding: 0 26px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin-top: 10px; */
+}
+.mainpage__leftbar-conatiner {
+  width: 220px;
+  padding: 10px;
+}
+.new_mail_btn:hover {
+  background-color: rgb(158, 156, 156) !important;
+}
+/* rightSide */
+.rightBar {
+  padding: 10px;
+}
+/* card */
+.card__container {
+  transition: 0.5s;
+}
+.card__container:hover {
+  transition: 0.5s;
+  background-color: aqua;
+}
